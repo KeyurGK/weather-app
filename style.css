@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&family=Jacques+Francois+Shadow&family=Londrina+Sketch&family=Nunito:wght@300;400;500;600;700&family=Orbitron:wght@400;500&family=Poppins:wght@400;500&family=Rubik+80s+Fade&family=Rubik+Distressed&family=Teko:wght@400;500;600;700&family=Zen+Dots&display=swap'); 
+*{
+    box-sizing:border-box;
+    margin:0;
+}
+body{
+    
+    font-family:'Poppins', sans-serif;
+    min-height:100vh;
+}
+.title{
+    margin-left:40%;
+    margin-top:2%;
+}
+.search-bar{
+   margin-left:40%;
+   margin-top:2%;
+
+}
+.content{
+    display:flex;
+    flex-direction:column;
+    margin-top:3%;
+    margin-left:2%;
+    margin-right:2%;
+    border:2px solid black;
+}
+.content .box-1{
+    display:flex;
+    height:300px;
+    justify-content:space-evenly;
+   background-color: rgb(0, 0, 0);
+    
+}
+.content .box-1 *{
+    width:150px;
+    padding:30px 10px;
+    font-size: 1.2rem;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.humidity{
+    background-color: rgb(44,150,46);
+}
+.min-temp{
+    background-color: rgb(228, 232, 19);
+}
+.max-temp{
+    background-color: rgb(232, 23, 19);
+}
+.temp{
+    background-color: rgb(232, 150, 19);
+}
+.wind-speed{
+    background-color: rgb(70, 232, 244);
+}
+.content .box-2{
+    background-color: black;
+}
+.content .box-2 .location p{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-transform: capitalize;
+font-size: 1.5rem;
+margin-left: 50%;
+margin-top:1%;
+margin-bottom:1%;
+color:antiquewhite;
+}
